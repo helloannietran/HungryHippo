@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B39ADBDB2F01D2B200503E76 /* MoodSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBD82F01D2B200503E76 /* MoodSelector.swift */; };
+		B39ADBDC2F01D2B200503E76 /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBD92F01D2B200503E76 /* PillButton.swift */; };
+		B39ADBDD2F01D2B200503E76 /* HippoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBD72F01D2B200503E76 /* HippoView.swift */; };
+		B39ADBE02F01D2CA00503E76 /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBDE2F01D2CA00503E76 /* MealData.swift */; };
+		B39ADBE52F01D2D000503E76 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBE32F01D2D000503E76 /* Mood.swift */; };
+		B39ADBE62F01D2D000503E76 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBE12F01D2D000503E76 /* Meal.swift */; };
+		B39ADBE72F01D2D000503E76 /* MealCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBE22F01D2D000503E76 /* MealCategory.swift */; };
+		B39ADBEA2F01D2D400503E76 /* MealDecisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBE82F01D2D400503E76 /* MealDecisionViewModel.swift */; };
+		B39ADBF02F01D2D900503E76 /* MealResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBEC2F01D2D900503E76 /* MealResultView.swift */; };
+		B39ADBF12F01D2D900503E76 /* QuestionFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBED2F01D2D900503E76 /* QuestionFlowView.swift */; };
+		B39ADBF22F01D2D900503E76 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBEB2F01D2D900503E76 /* LoadingView.swift */; };
+		B39ADBF32F01D2D900503E76 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBEE2F01D2D900503E76 /* RootView.swift */; };
+		B39ADBF52F01D2DE00503E76 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B39ADBF42F01D2DE00503E76 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B39ADBBB2F01D1E800503E76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +43,19 @@
 		B39ADBAD2F01D1E600503E76 /* HungryHippo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryHippo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39ADBBA2F01D1E800503E76 /* HungryHippoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryHippoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39ADBC42F01D1E800503E76 /* HungryHippoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryHippoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39ADBD72F01D2B200503E76 /* HippoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoView.swift; sourceTree = "<group>"; };
+		B39ADBD82F01D2B200503E76 /* MoodSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelector.swift; sourceTree = "<group>"; };
+		B39ADBD92F01D2B200503E76 /* PillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButton.swift; sourceTree = "<group>"; };
+		B39ADBDE2F01D2CA00503E76 /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		B39ADBE12F01D2D000503E76 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B39ADBE22F01D2D000503E76 /* MealCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCategory.swift; sourceTree = "<group>"; };
+		B39ADBE32F01D2D000503E76 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		B39ADBE82F01D2D400503E76 /* MealDecisionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDecisionViewModel.swift; sourceTree = "<group>"; };
+		B39ADBEB2F01D2D900503E76 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B39ADBEC2F01D2D900503E76 /* MealResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealResultView.swift; sourceTree = "<group>"; };
+		B39ADBED2F01D2D900503E76 /* QuestionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFlowView.swift; sourceTree = "<group>"; };
+		B39ADBEE2F01D2D900503E76 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B39ADBF42F01D2DE00503E76 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +104,12 @@
 		B39ADBA42F01D1E600503E76 = {
 			isa = PBXGroup;
 			children = (
+				B39ADBF42F01D2DE00503E76 /* README.md */,
+				B39ADBEF2F01D2D900503E76 /* Views */,
+				B39ADBE92F01D2D400503E76 /* ViewModels */,
+				B39ADBE42F01D2D000503E76 /* Models */,
+				B39ADBDF2F01D2CA00503E76 /* Data */,
+				B39ADBDA2F01D2B200503E76 /* Components */,
 				B39ADBAF2F01D1E600503E76 /* HungryHippo */,
 				B39ADBBD2F01D1E800503E76 /* HungryHippoTests */,
 				B39ADBC72F01D1E800503E76 /* HungryHippoUITests */,
@@ -90,6 +125,53 @@
 				B39ADBC42F01D1E800503E76 /* HungryHippoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B39ADBDA2F01D2B200503E76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B39ADBD72F01D2B200503E76 /* HippoView.swift */,
+				B39ADBD82F01D2B200503E76 /* MoodSelector.swift */,
+				B39ADBD92F01D2B200503E76 /* PillButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B39ADBDF2F01D2CA00503E76 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B39ADBDE2F01D2CA00503E76 /* MealData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B39ADBE42F01D2D000503E76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B39ADBE12F01D2D000503E76 /* Meal.swift */,
+				B39ADBE22F01D2D000503E76 /* MealCategory.swift */,
+				B39ADBE32F01D2D000503E76 /* Mood.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B39ADBE92F01D2D400503E76 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B39ADBE82F01D2D400503E76 /* MealDecisionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B39ADBEF2F01D2D900503E76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B39ADBEB2F01D2D900503E76 /* LoadingView.swift */,
+				B39ADBEC2F01D2D900503E76 /* MealResultView.swift */,
+				B39ADBED2F01D2D900503E76 /* QuestionFlowView.swift */,
+				B39ADBEE2F01D2D900503E76 /* RootView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39ADBF52F01D2DE00503E76 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39ADBE02F01D2CA00503E76 /* MealData.swift in Sources */,
+				B39ADBDB2F01D2B200503E76 /* MoodSelector.swift in Sources */,
+				B39ADBDC2F01D2B200503E76 /* PillButton.swift in Sources */,
+				B39ADBDD2F01D2B200503E76 /* HippoView.swift in Sources */,
+				B39ADBE52F01D2D000503E76 /* Mood.swift in Sources */,
+				B39ADBE62F01D2D000503E76 /* Meal.swift in Sources */,
+				B39ADBE72F01D2D000503E76 /* MealCategory.swift in Sources */,
+				B39ADBEA2F01D2D400503E76 /* MealDecisionViewModel.swift in Sources */,
+				B39ADBF02F01D2D900503E76 /* MealResultView.swift in Sources */,
+				B39ADBF12F01D2D900503E76 /* QuestionFlowView.swift in Sources */,
+				B39ADBF22F01D2D900503E76 /* LoadingView.swift in Sources */,
+				B39ADBF32F01D2D900503E76 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
