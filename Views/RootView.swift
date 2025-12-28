@@ -12,14 +12,28 @@ struct RootView: View {
 
     var body: some View {
         NavigationStack {
-            if vm.isLoading {
-                LoadingView()
-            } else if let meal = vm.selectedMeal {
-                MealResultView(meal: meal)
-            } else {
-                QuestionFlowView()
-                    .environmentObject(vm)
+            Group {
+                if vm.isLoading {
+                    LoadingView()
+                } else if let meal = vm.selectedMeal {
+                    MealResultView(meal: meal)
+                } else {
+                    QuestionFlowView()
+                }
             }
+            .environmentObject(vm)
+            .navigationTitle("Hungry Hippo 🦛")
+            .background(
+                ZStack {
+                    Image("BackgroundImage")
+                        .resizable()
+                        .scaledToFill()
+                        .ignoresSafeArea()
+
+                    Color.white.opacity(0.3) // soft overlay so text is readable
+                        .ignoresSafeArea()
+                }
+            )
         }
     }
 }

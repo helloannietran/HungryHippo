@@ -9,10 +9,11 @@ import SwiftUI
 
 struct LoadingView: View {
     var body: some View {
-        VStack(spacing: 16) {
-            HippoView()
+        VStack(spacing: 20) {
+            HippoView(size: 120)
             Text("Hippo is thinking...")
                 .font(.headline)
+                .foregroundColor(.purple)
         }
     }
 }

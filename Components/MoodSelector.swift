@@ -11,11 +11,12 @@ struct MoodSelector: View {
     @Binding var selectedMood: Mood?
 
     var body: some View {
-        HStack {
+        VStack(spacing: 10) {
             ForEach(Mood.allCases, id: \.self) { mood in
                 PillButton(
                     title: mood.rawValue,
-                    isSelected: selectedMood == mood
+                    isSelected: selectedMood == mood,
+                    color: .purple
                 ) {
                     selectedMood = mood
                 }

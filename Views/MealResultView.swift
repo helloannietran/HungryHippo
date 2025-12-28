@@ -9,19 +9,29 @@ import SwiftUI
 
 struct MealResultView: View {
     let meal: Meal
+    @EnvironmentObject var vm: MealDecisionViewModel
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 40) {
+            HippoView(size: 120)
+            
             Text("You should eat:")
                 .font(.title2)
+                .bold()
+                .foregroundColor(.purple)
+            
             Text(meal.name)
                 .font(.largeTitle)
+                .bold()
+                .foregroundColor(.orange)
+            
             Button("Decide Again 🔄") {
-                UIApplication.shared.sendAction(
-                    #selector(UIResponder.resignFirstResponder),
-                    to: nil, from: nil, for: nil
-                )
+                vm.reset()
             }
+            .buttonStyle(.borderedProminent)
+            .tint(Color.green)
         }
+        .padding()
+        .background(Color("PastelBackground").ignoresSafeArea())
     }
 }

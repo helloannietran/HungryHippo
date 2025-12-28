@@ -11,21 +11,30 @@ struct QuestionFlowView: View {
     @EnvironmentObject var vm: MealDecisionViewModel
 
     var body: some View {
-        VStack(spacing: 24) {
-            Text("How are you feeling?")
-                .font(.title2)
+        VStack(spacing: 32) {
+            VStack(spacing: 12) {
+                Text("How are you feeling?")
+                    .font(.title2)
+                    .bold()
+                    .foregroundColor(.purple)
+                
+                MoodSelector(selectedMood: $vm.selectedMood)
+            }
 
-            MoodSelector(selectedMood: $vm.selectedMood)
-
-            Text("What meal?")
-                .font(.title3)
-
-            ForEach(MealCategory.allCases, id: \.self) { category in
-                PillButton(
-                    title: category.rawValue,
-                    isSelected: vm.selectedCategory == category
-                ) {
-                    vm.selectedCategory = category
+            VStack(spacing: 12) {
+                Text("What meal?")
+                    .font(.title3)
+                    .bold()
+                    .foregroundColor(.blue)
+                
+                ForEach(MealCategory.allCases, id: \.self) { category in
+                    PillButton(
+                        title: category.rawValue,
+                        isSelected: vm.selectedCategory == category,
+                        color: .pink
+                    ) {
+                        vm.selectedCategory = category
+                    }
                 }
             }
 
@@ -34,6 +43,7 @@ struct QuestionFlowView: View {
             }
             .disabled(vm.selectedMood == nil || vm.selectedCategory == nil)
             .buttonStyle(.borderedProminent)
+            .tint(Color.orange)
         }
         .padding()
     }

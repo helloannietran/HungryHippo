@@ -20,6 +20,8 @@
 		B39ADBF22F01D2D900503E76 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBEB2F01D2D900503E76 /* LoadingView.swift */; };
 		B39ADBF32F01D2D900503E76 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBEE2F01D2D900503E76 /* RootView.swift */; };
 		B39ADBF52F01D2DE00503E76 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B39ADBF42F01D2DE00503E76 /* README.md */; };
+		B39ADBF72F01D46500503E76 /* HungryHippoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ADBF62F01D46000503E76 /* HungryHippoApp.swift */; };
+		B39ADBF92F01DB4B00503E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39ADBF82F01DB4B00503E76 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +58,11 @@
 		B39ADBED2F01D2D900503E76 /* QuestionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFlowView.swift; sourceTree = "<group>"; };
 		B39ADBEE2F01D2D900503E76 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		B39ADBF42F01D2DE00503E76 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B39ADBF62F01D46000503E76 /* HungryHippoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryHippoApp.swift; sourceTree = "<group>"; };
+		B39ADBF82F01DB4B00503E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B39ADBAF2F01D1E600503E76 /* HungryHippo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HungryHippo;
-			sourceTree = "<group>";
-		};
 		B39ADBBD2F01D1E800503E76 /* HungryHippoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HungryHippoTests;
@@ -104,13 +103,14 @@
 		B39ADBA42F01D1E600503E76 = {
 			isa = PBXGroup;
 			children = (
+				B39ADBF82F01DB4B00503E76 /* Assets.xcassets */,
+				B39ADBF62F01D46000503E76 /* HungryHippoApp.swift */,
 				B39ADBF42F01D2DE00503E76 /* README.md */,
 				B39ADBEF2F01D2D900503E76 /* Views */,
 				B39ADBE92F01D2D400503E76 /* ViewModels */,
 				B39ADBE42F01D2D000503E76 /* Models */,
 				B39ADBDF2F01D2CA00503E76 /* Data */,
 				B39ADBDA2F01D2B200503E76 /* Components */,
-				B39ADBAF2F01D1E600503E76 /* HungryHippo */,
 				B39ADBBD2F01D1E800503E76 /* HungryHippoTests */,
 				B39ADBC72F01D1E800503E76 /* HungryHippoUITests */,
 				B39ADBAE2F01D1E600503E76 /* Products */,
@@ -188,9 +188,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B39ADBAF2F01D1E600503E76 /* HungryHippo */,
 			);
 			name = HungryHippo;
 			packageProductDependencies = (
@@ -294,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39ADBF92F01DB4B00503E76 /* Assets.xcassets in Resources */,
 				B39ADBF52F01D2DE00503E76 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39ADBF72F01D46500503E76 /* HungryHippoApp.swift in Sources */,
 				B39ADBE02F01D2CA00503E76 /* MealData.swift in Sources */,
 				B39ADBDB2F01D2B200503E76 /* MoodSelector.swift in Sources */,
 				B39ADBDC2F01D2B200503E76 /* PillButton.swift in Sources */,
